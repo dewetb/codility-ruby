@@ -13,6 +13,7 @@ describe TapeEquilibrium do
     expect(tape.solution([1, 1, 1, 1])).to eq(0)
     expect(tape.solution([1, 1, 1, 1, 1])).to eq(1)
     expect(tape.solution([100, 1, 1, 1, 1, 1])).to eq(95)
+    expect(tape.solution([-1000, 1000])).to eq(0)
   end
 
 end
